@@ -36,16 +36,32 @@
     <main>
         <div class="container">
             <h1 class="mb-4">Nuovo Libro</h1>
-            <!--qua iniziano i form-->
+            <!--qua iniziano i form, devo riprendere la lezione perche bootstrap ha tanti form e non ho capito cosa cambia uno dall altro-->
             <div class="row g-3">
                 <div class="col">
                   <label for="Nome autore" class="form-label">Nome autore</label>
                   <input type="text" class="form-control" placeholder="Inserisci il nome dell'autore" aria-label="Nome autore">
                 </div>
                 <div class="col">
-                    <label for="Cognome dell'autore" class="form-label">Cognome autore</label>
+                  <label for="Cognome dell'autore" class="form-label">Cognome autore</label>
                   <input type="text" class="form-control" placeholder="Inserisci il cognome dell'autore" aria-label="Cognome autore">
                 </div>
+                <div class="col-12">
+                    <label for="Titolo del libro" class="form-label">Titolo</label>
+                    <input type="text" class="form-control" placeholder="Inserisci il titolo del libro" aria-label="Titolo libro">
+                    <label for="floatingEmptyPlaintextInput">Titolo versione italiana</label>
+                </div>
+                <div class="col-4">
+                    <label for="Genere" class="mb-2">Genere</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Scegli il genere</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                </div>
+                <div class="col-4"></div>
+                <div class="col-4"></div>
               </div>
         </div>
     </main>
