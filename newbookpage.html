@@ -37,7 +37,7 @@
         <div class="container">
             <h1 class="mb-4">Nuovo Libro</h1>
             <!--qua iniziano i form, devo riprendere la lezione perche bootstrap ha tanti form e non ho capito cosa cambia uno dall altro-->
-            <div class="row g-3">
+            <div class="row g-3 ">
                 <div class="col">
                   <label for="Nome autore" class="form-label">Nome autore</label>
                   <input type="text" class="form-control" placeholder="Inserisci il nome dell'autore" aria-label="Nome autore">
@@ -60,8 +60,19 @@
                         <option value="3">Three</option>
                       </select>
                 </div>
-                <div class="col-4"></div>
-                <div class="col-4"></div>
+                <div class="col-4 mb-4">
+                  <label for="Anno di Pubblicazione" class="form-label">Anno di pubblicazione</label>
+                  <input type="text" class="form-control" placeholder="Anno di pubblicazione" aria-label="Anno di pubblicazione">
+                </div>
+                <div class="col-4">
+                  <label for="ISBN#" class="form-label">ISBN#</label>
+                  <input type="text" class="form-control" placeholder="inserisci il codice ISBN#" aria-label="ISBN#">
+                </div>
+                <hr class="mb-3">
+                <div class="mb-3 col-12">
+                  <label for="note" class="form-label">Note</label>
+                  <textarea class="form-control" id="note" rows="3" placeholder="inserisci eventuali note sul libro"></textarea>
+                </div>
               </div>
         </div>
     </main>
